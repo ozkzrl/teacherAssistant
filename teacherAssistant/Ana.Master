@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ana.master.cs" Inherits="teacherAssistant.Ana" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height:150px; width:1260px"></div>
+        <div style="height:1008px; width:1260px">
+            <div style="margin-top:10px; height:500px; width:150px; float:left"></div>
+            <div style="margin-left:10px; margin-top:10px; height:1000px; width:1100px; float:left">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            </div>
+    </form>
+</body>
+</html>
